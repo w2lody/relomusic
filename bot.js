@@ -475,7 +475,7 @@ client.on('message', message => {
   if (!message.content.startsWith(PREFIX)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id !== "507978288250093568") return;
+  if (message.author.id !== "522764310313697282") return;
  
 if (message.content.startsWith(PREFIX + 'setstream')) {
   client.user.setGame(argresult, "https://www.twitch.tv/darkknite55");
